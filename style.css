@@ -1,0 +1,83 @@
+ head{
+    text-decoration-color: white;
+    text-align: center;
+}
+body{
+    background-color: rgb(21, 28, 28);
+        text-decoration-color: white;
+        text-align: center;
+
+}
+/*
+.Divider1
+{
+    height: 800px;
+    width: 10px;
+    margin-left: 200px;
+    background: rgb(69, 68, 68);
+}
+
+/*.Divider2
+{
+    height: 800px;
+    width: 10px;
+    margin-left: 600px;
+    background: rgb(69, 68, 68);
+}
+*/
+
+.Main_Container
+{
+    margin-left: 600px;
+    margin-top: 100px;
+    background:black; 
+    height: 660px; 
+    width: 420px;
+    justify-content: center;
+    border-radius: 36px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 255, 255, 0.589);
+    box-shadow: rgba(249, 171, 122, 0.13) 0px 4px 18px 4px;
+}
+
+form input{
+    height: 90px;
+    width: 90px;
+    background-color: rgb(104, 111, 118);
+    border-radius: 200px;
+    box-shadow: rgba(21, 19, 19, 0.799) 0px 4px 14px 4px;
+    border: 0;
+    font-size: 42px;
+    color: white;
+    margin: 3.8px;
+}
+
+.Display
+{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 340px;
+    padding-top: 58px;
+    margin-bottom: 30px;
+    width: 60px;
+    height: 60px;
+    
+}
+
+form .Display input{
+    width: 300px;
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    color: white;
+    background: transparent;
+    border-style: solid;
+    border: 0;
+    outline: 0;
+    caret-color: transparent;
+    border-radius: 20px;
+    border-width: 1px;
+
+}
+
